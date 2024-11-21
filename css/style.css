@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background-color: orange;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.travel {
+    color: rgb(136, 255, 0);
+    padding: 10px;
+}
+.navbar a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.hero {
+    background-image: url("../images/image1.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 50px;
+}
+
+.hero .cta-btn {
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    background-color: lightblue;
+    padding: 50px;
+    border-radius: 10%;
+    margin-top: 20px
+}
+
+.service-card {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.destinations {
+    padding: 50px 20px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.destination-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.destination-card {
+    background-color: rgb(172, 183, 149);
+    padding: 50px;
+    border-radius: 5px;
+    
+    color: white;
+}
+
+.destination-card:hover {
+    box-shadow: 0 4px 6px rgba(217, 156, 14, 0.5);
+}
+
+.packages {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.package-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.package-card {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(217, 156, 14, 0.5);
+}
+
+.package-card:hover{
+    box-shadow: 0 4px 6px rgba(2, 226, 238, 0.5);
+}
+
+.gallery {
+    padding: 50px 20px;
+    background-color: coral;
+    text-align: center;
+}
+.gallery-images {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-image {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(2, 226, 238, 0.5);
+}
+
+.gallery-image:hover {
+    box-shadow: 0 4px 6px rgba(200, 231, 3, 0.5);
+}
+
+.team {
+    padding: 50px 20px;
+    background-color: grey;
+    text-align: center;
+}
+
+.team-members {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.team-member {
+    background-color: burlywood;
+    padding: 20px; 
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(200, 231, 3, 0.5);
+}
+
+.blog {
+    padding: 50px 20px;
+    background-color: skyblue;
+    text-align: center;
+}
+
+.blog-posts {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.blog-post {
+    background-color: rgb(111, 241, 222);
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(200, 231, 3, 0.5);
+}
+
+.faq {
+    background-color: saddlebrown;
+    padding: 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.faq-item {
+    background-color: chocolate;
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    color: white;
+}
+
+.footer {
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 36px;
+}
